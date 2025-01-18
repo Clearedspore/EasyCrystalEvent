@@ -1,0 +1,14 @@
+#================================================
+#              EasyCrystalEvent
+#================================================
+#ONLY CHANGE THIS FILE IF YOU KNOW WHAT YOU ARE DOING!!!
+
+#EasyCrystalEvent is the newest crystal pvp event plugin
+#Make sure everything has a value/string so that it doesn't get bugged!
+
+countdown: 300 # Countdown time in seconds until the event starts!
+tpbackworld: world # to what world the player(s) get teleported when the event ends or the player gets kicked
+returnGamemode: SURVIVAL # What gamemode gets the player when they get teleported back to world when the event ends/player gets kicked
+returncountdown: 30 # Countdown in seconds until everyone gets teleported back to the main world when the event has ended
+announceCooldown: 20 # cooldown for everytime you do /event-announce. can be bypassed with easycrystalevent.announce.bypass
+defualtborder: 200 # Default world border in the event

@@ -1,0 +1,44 @@
+name: EasyCrystalEvent
+version: ${project.version}
+main: me.clearedspore.easyCrystalEvent.EasyCrystalEvent
+api-version: '1.21'
+authors: [ Clearedspore ]
+description: The newest Event plugin
+commands:
+  cevent-setup:
+    description: Setup the new event
+    permission: easycrystalevent.setup
+  cevent-join:
+    description: join the event
+    permission: easycrystalevent.join
+  cevent-cancel:
+    description: cancel the event
+    permission: easycrystalevent.cancel
+  cevent-kick:
+    description: Kick a player from your event
+    permission: easycrystalevent.kick
+  cevent-start:
+    description: Start the event by hand
+    permission: easycrystalevent.start
+  cevent-rekit:
+    description: rekit a player
+    permission: easycrystalevent.rekit
+  cevent-respawn:
+    description: respawn a player
+    permission: easycrystalevent.respawn
+  cevent-announce:
+    description: Announce the event
+    permission: easycrystalevent.announce
+  cevent-border:
+    description: Update the border!
+    permission: easycrystalevent.border
+  cevent-clearlayers:
+    description: Clear 10 layers
+    permission: easycrystalevent.clearlayers
+  cevent-manage:
+    description: Manage the event with a gui
+    permission: easycrystalevent.manage
+permissions:
+  easycrystalevent.announce.bypass:
+    description: bypass the announce cooldown!
+    default: op
